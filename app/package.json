@@ -1,0 +1,20 @@
+{
+  "name": "my-fashion-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node ./node_modules/.bin/parse-server",
+    "dev": "nodemon --inspect=0.0.0.0:9229 ./node_modules/.bin/parse-server"
+  },
+  "keywords": [
+    "fashion",
+    "node"
+  ],
+  "author": "Ran",
+  "license": "MIT",
+  "dependencies": {
+    "parse-server": "^2.8.1"
+  }
+}
